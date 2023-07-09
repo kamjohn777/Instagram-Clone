@@ -1,0 +1,209 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 220px;
+}
+
+.container h2 {
+    font-family: pacifico;
+    font-size: 35px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+#username {
+    width: 100%;
+}
+
+#password {
+    width: 100%;
+}
+
+#submit {
+    background: dodgerblue;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 170px;
+    color: white;
+}
+
+
+/* FEED CODE */
+.feed {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for each post */
+  .post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .post img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-details h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .post-details p {
+    font-size: 14px;
+  }
+  
+  /* Additional styling for hover effect on posts */
+  .post:hover {
+    background-color: #f4f4f4;
+    cursor: pointer;
+  }
+/* END OF FEED CODE */
+
+
+/* START OF ACCOUNT CODE */
+#account-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#account-nav h3 {
+  font-size: 70px;
+  margin: 0;
+}
+
+.act-nav-btn button {
+  width: 228px;
+    height: 120px;
+    font-size: 52px;
+    border-radius: 16px;
+    background-color: #3863ff;
+    color: white;
+    border: none;
+}
+
+.act-nav-btn :nth-child(2) {
+  width: 228px;
+    height: 120px;
+    font-size: 52px;
+    border-radius: 16px;
+    background-color: white;
+    color: #3863ff;
+    border: none;
+}
+
+.section2 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.circle-logo {
+  border-radius: 50%;
+  background-color: purple;
+  height: 400px;
+  width: 400px;
+}
+
+.pro-btn-div h4 {font-size: 40px;}
+
+.pro-btn-div button {
+  width: 249px;
+  height: 120px;
+  font-size: 38px;
+  border-radius: 16px;
+  background-color: #d5d5d5;
+  color: black;
+  border: none;
+}
+
+.bio-div {
+  margin-top: 56px;
+  margin-left: 112px;
+}
+
+.bio-div h4 {
+  font-size: 25px;
+}
+
+.bio-div p {
+  font-size: 15px;
+}
+
+.bio-div a {
+  font-size: 12px;
+}
+
+.insight-div {
+  display: flex;
+  overflow: scroll;
+}
+
+.insight-div-circles {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.section3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.square-div-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.square-div-container div {
+  background-color: grey;
+  height: 300px;
+  width: 300px;
+
+}
+/* END OF ACCOUNT CODE */
